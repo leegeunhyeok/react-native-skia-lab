@@ -4,17 +4,11 @@ react-native-skia-lab is a collection of beautiful demos built with React Native
 
 ## Preview
 
-| Gesture | Painting |
-| --- | --- |
-| ![Gesture preview](assets/gifs/gesture.gif) | ![Painting preview](assets/gifs/painting.gif) |
-
-| Physics | Pixel |
-| --- | --- |
-| ![Physics preview](assets/gifs/physics.gif) | ![Pixel preview](assets/gifs/pixel.gif) |
-
-| Polygon | Shader |
-| --- | --- |
-| ![Polygon preview](assets/gifs/polygon.gif) | ![Shader preview](assets/gifs/shader.gif) |
+| Painting | Gesture | Physics |
+| --- | --- | --- |
+| ![Painting preview](assets/gifs/painting.gif) | ![Gesture preview](assets/gifs/gesture.gif) | ![Physics preview](assets/gifs/physics.gif) |
+| Polygon | Pixel | Shader |
+| ![Polygon preview](assets/gifs/polygon.gif) | ![Pixel preview](assets/gifs/pixel.gif) | ![Shader preview](assets/gifs/shader.gif) |
 
 ## Setup and Run
 
