@@ -1,0 +1,46 @@
+import { Easing } from "react-native-reanimated";
+
+export const LABEL_ENTER_FADE_DURATION = 280;
+export const LABEL_ENTER_START_RATIO = 0.25;
+
+export const LABEL_BLUR_OUT_MAX_BLUR = 4;
+export const LABEL_BLUR_OUT_EASING = Easing.bezier(
+  0.06,
+  0.53,
+  0.13,
+  0.91
+).factory();
+export const LABEL_BLUR_OUT_TRANSLATE_X = -3;
+export const LABEL_HIDDEN_POSITION = -10000;
+export const LABEL_VISIBLE_OPACITY_THRESHOLD = 0.001;
+
+export const FRAME_DELTA_MAX_SECONDS = 1 / 30;
+export const FRAME_DELTA_MIN_SECONDS = 1 / 120;
+export const FRAME_DELTA_DEFAULT_SECONDS = 1 / 60;
+
+export const PARTICLE_TRANSITION_ENTER_DURATION = 500;
+export const PARTICLE_TRANSITION_ENTER_EASING = Easing.bezierFn(
+  0.01,
+  0.29,
+  0,
+  0.99
+);
+export const PARTICLE_TRANSITION_MIN_PROGRESS = 0.001;
+export const PARTICLE_TRANSITION_DRAW_PADDING = 32;
+export const PARTICLE_TRANSITION_PROGRESS_BOOST = 1;
+export const PARTICLE_TRANSITION_DISTANCE_EXPONENT = 0.86;
+export const PARTICLE_TRANSITION_FULL_PROGRESS_SPACING = 2.15;
+export const PARTICLE_TRANSITION_EXIT_DURATION = 3000;
+export const PARTICLE_TRANSITION_NAVIGATION_DELAY_RATIO = 0.6;
+export const PARTICLE_TRANSITION_EXIT_EASING = Easing.bezier(
+  0,
+  0.19,
+  0.38,
+  0.84
+);
+
+export const SCROLL_INERTIA_DAMPING = 2.2;
+export const SCROLL_INERTIA_STOP_VELOCITY = 0.15;
+export const SCROLL_SNAP_DAMPING = 15;
+export const SCROLL_SNAP_STIFFNESS = 86;
+export const SCROLL_SNAP_STOP_THRESHOLD = 0.001;
