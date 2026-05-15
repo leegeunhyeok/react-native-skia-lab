@@ -1,20 +1,20 @@
 # react-native-skia-lab
 
-react-native-skia-lab is a collection of beautiful demos built with React Native Skia created by [Daehyeon Mun](https://x.com/DaehyeonMun).
+react-native-skia-lab is a collection of beautiful demos built with React Native Skia created by <a href="https://x.com/DaehyeonMun" target="_blank" rel="noopener noreferrer">Daehyeon Mun</a>.
 
 ## Preview
 
 | Gesture | Painting |
 | --- | --- |
-| <video src="assets/videos/gesture.mov" controls muted playsinline width="280"></video> | <video src="assets/videos/painting.mov" controls muted playsinline width="280"></video> |
+| ![Gesture preview](assets/gifs/gesture.gif) | ![Painting preview](assets/gifs/painting.gif) |
 
 | Physics | Pixel |
 | --- | --- |
-| <video src="assets/videos/physics.mov" controls muted playsinline width="280"></video> | <video src="assets/videos/pixel.mov" controls muted playsinline width="280"></video> |
+| ![Physics preview](assets/gifs/physics.gif) | ![Pixel preview](assets/gifs/pixel.gif) |
 
 | Polygon | Shader |
 | --- | --- |
-| <video src="assets/videos/polygon.mov" controls muted playsinline width="280"></video> | <video src="assets/videos/shader.mov" controls muted playsinline width="280"></video> |
+| ![Polygon preview](assets/gifs/polygon.gif) | ![Shader preview](assets/gifs/shader.gif) |
 
 ## Setup and Run
 
