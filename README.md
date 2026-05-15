@@ -1,14 +1,31 @@
 # react-native-skia-lab
 
-react-native-skia-lab is a collection of beautiful demos built with React Native Skia created by <a href="https://x.com/DaehyeonMun" target="_blank" rel="noopener noreferrer">Daehyeon Mun</a>.
+react-native-skia-lab is a collection of beautiful demos built with React Native Skia created by <a href="https://x.com/DaehyeonMun" target="_blank" rel="noopener noreferrer">Daehyeon Mun</a>. Some demos are inspired by <a href="https://x.com/cmiscm" target="_blank" rel="noopener noreferrer">Jongmin Kim</a>'s work, which has deeply influenced how I think about interaction, motion, and creative coding.
 
 ## Preview
 
-| Painting | Gesture | Physics |
-| --- | --- | --- |
-| ![Painting preview](assets/gifs/painting.gif) | ![Gesture preview](assets/gifs/gesture.gif) | ![Physics preview](assets/gifs/physics.gif) |
-| Polygon | Pixel | Shader |
-| ![Polygon preview](assets/gifs/polygon.gif) | ![Pixel preview](assets/gifs/pixel.gif) | ![Shader preview](assets/gifs/shader.gif) |
+<table>
+  <tr>
+    <th align="center">Painting</th>
+    <th align="center">Shader</th>
+    <th align="center">Pixel</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/gifs/painting.gif" alt="Painting preview" width="220" /></td>
+    <td align="center"><img src="assets/gifs/shader.gif" alt="Shader preview" width="220" /></td>
+    <td align="center"><img src="assets/gifs/pixel.gif" alt="Pixel preview" width="220" /></td>
+  </tr>
+  <tr>
+    <th align="center">Gesture</th>
+    <th align="center">Physics</th>
+    <th align="center">Polygon</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/gifs/gesture.gif" alt="Gesture preview" width="220" /></td>
+    <td align="center"><img src="assets/gifs/physics.gif" alt="Physics preview" width="220" /></td>
+    <td align="center"><img src="assets/gifs/polygon.gif" alt="Polygon preview" width="220" /></td>
+  </tr>
+</table>
 
 ## Setup and Run
 
