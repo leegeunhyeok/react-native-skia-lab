@@ -1,4 +1,4 @@
-import { useFocusEffect } from "expo-router";
+import { useFocusEffect } from "@react-navigation/native";
 import { useCallback, useMemo } from "react";
 import { useSharedValue, type SharedValue } from "react-native-reanimated";
 import { scheduleOnUI } from "react-native-worklets";

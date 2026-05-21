@@ -1,7 +1,9 @@
 // @refresh reset
 import useAnimation from "@/hooks/useAnimation";
+import type { RouteName } from "@/navigation/types";
 import { Canvas } from "@shopify/react-native-skia";
-import { router } from "expo-router";
+import { useNavigation } from "@react-navigation/native";
+import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { useCallback, useMemo } from "react";
 import { View } from "react-native";
 import { Gesture, GestureDetector } from "react-native-gesture-handler";
@@ -23,6 +25,8 @@ type Props = {
 };
 
 export default function List({ routes }: Props) {
+  const navigation =
+    useNavigation<NativeStackNavigationProp<Record<RouteName, undefined>>>();
   const labels = useMemo(() => routes.map((route) => route.label), [routes]);
   const hrefs = useMemo(() => routes.map((route) => route.href), [routes]);
 
@@ -58,11 +62,14 @@ export default function List({ routes }: Props) {
     ),
   });
 
-  const navigateWithDelay = useCallback((href: string, delayMs: number) => {
-    setTimeout(() => {
-      router.push(href as Parameters<typeof router.push>[0]);
-    }, delayMs);
-  }, []);
+  const navigateWithDelay = useCallback(
+    (href: string, delayMs: number) => {
+      setTimeout(() => {
+        navigation.navigate(href as RouteName);
+      }, delayMs);
+    },
+    [navigation]
+  );
 
   const tap = useTap({
     disabled: transition.disabled,

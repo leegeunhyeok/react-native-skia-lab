@@ -5,32 +5,32 @@ export default function HomeScreen() {
   const routes = [
     {
       label: "Polygon",
-      href: "/polygon",
+      href: "polygon",
       image: require("./images/polygon.webp"),
     },
     {
       label: "Pixel",
-      href: "/pixel",
+      href: "pixel",
       image: require("./images/pixel.webp"),
     },
     {
       label: "Gesture",
-      href: "/gesture",
+      href: "gesture",
       image: require("./images/gesture.webp"),
     },
     {
       label: "Shader",
-      href: "/shader",
+      href: "shader",
       image: require("./images/shader.webp"),
     },
     {
       label: "Physics",
-      href: "/physics",
+      href: "physics",
       image: require("./images/physics.webp"),
     },
     {
       label: "Painting",
-      href: "/painting",
+      href: "painting",
       image: require("./images/painting.webp"),
     },
   ] as const;
